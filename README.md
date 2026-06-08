@@ -12,8 +12,8 @@ The goal of this project is to analyze sonar signal data and build a predictive 
 
 The dataset contains sonar signal readings collected from objects underwater.
 
-* Total Features: 60
-* Target Variable:
+Total Features: 60
+Target Variable:
 
   * R = Rock
   * M = Mine
@@ -88,29 +88,25 @@ Sonar-Rock-vs-Mine-Prediction
 2. Install required libraries:
 
 ```bash
-pip install numpy pandas scikit-learn jupyter
+pip install numpy pandas
+scikit-learn jupyter
 ```
 
 3. Open Jupyter Notebook.
 
 ```bash
 jupyter notebook
-```
+
 
 4. Run all notebook cells.
-
----
 
 ## Sample Output
 
 ```text
 Accuracy on training data : 85%+
 Accuracy on test data : 75%+ 
-```
 
 The model predicts whether the given sonar signal belongs to a Rock or a Mine.
-
----
 
 ## Learning Outcomes
 
@@ -123,8 +119,6 @@ Through this project I learned:
 * Model Evaluation
 * Accuracy Measurement
 * Machine Learning Workflow
-
----
 
 ## Future Improvements
 
@@ -140,4 +134,4 @@ Through this project I learned:
 
 Bhumika Rai
 
-B.Tech Student | Machine Learning Enthusiast
+B.Tech Student
